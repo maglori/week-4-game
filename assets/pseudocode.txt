@@ -1,0 +1,6 @@
+pseudocode
+
+
+generate a random number between 19 and 120
+
+3 clickable images that get a random value from 1 - 12 on game start

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div id="container">
+
+  <div id=header>
+	<h1>CrystalsCollector!</h1>
+  </div>
+
+  <div id="rules">
+  <ul>
+  <li>* You will be given a random number at the start of the game.</li>
+
+  <li>* There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+
+  <li>* You win the game by matching your total score to a random number, and you lose the game if your total score goes above the random number.</li>
+
+  <li>* The value of each crystal is hidden from you until you click on it.</li>
+
+  <li>* Each time a game starts, the crystals and your goal number will be reset to new values.</li>
+  </ul>
+  <div>
+
+<div id="section">
+  <div id="goal">
+  	<h2>Goal</h2>
+  	<hr>
+	<h1 id="goalNum">0</h1>
+  </div>
+  
+  <div id="record">
+	<p id="wins">Wins: 0</p>
+	<p id="losses">Losses: 0</p>
+  </div>
+</div>
+
+  <div id="crystalBox">
+  	<!-- <img id="crystalOne" class="clickMe" src="assets/images/Purple.png"> -->
+  	<!-- <img id="crystalTwo" class="clickMe" src="assets/images/Green.png"> -->
+  	<!-- <img id="crystalThree" class="clickMe" src="assets/images/White.png"> -->
+  	<!-- <img id="crystalFour" class="clickMe" src="assets/images/Red.png"> -->
+  </div>
+
+  <div id="total">
+  	Your total score is: <br>
+  	<h1 id="totalNum">0<h1>
+  </div>
+
+</div>
+
+
+	
+<script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+	background-color: #e6e6e6;
+	height:100%;
+	width:100%;
+	color:hotpink;
+	display:flex;
+	justify-content:center;
+}
+
+h1 {
+	font-size:3em;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+li {
+	padding: 10px;
+}
+
+div {
+	padding:10px;
+}
+
+#header {
+	padding-left: 20px;
+}
+
+#rules {
+	max-width:400px;
+}
+
+#section {
+	display:flex;
+	justify-content: space-around;
+}
+
+#crystalBox {
+	border:1px double hotpink;
+	clear:both;
+	display:flex;
+	justify-content:space-between;
+}
+
+#goal {
+	float:left;
+	text-align:center;
+}
+
+#total {
+	clear:both;
+	text-align:center;
+}
+
+.clickMe {
+	border:3px double hotpink;
+	height:20%;
+	width:20%;
+	margin:2px;
+	opacity:.6;
+}
+
+.clickMe:hover{
+	opacity:1;
+}
